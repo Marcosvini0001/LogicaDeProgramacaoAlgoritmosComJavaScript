@@ -1,6 +1,6 @@
 # 📘 Estudos em Lógica de Programação e Algoritmos com JavaScript
 
-![Capa do Livro](./b3b13124-9c81-439d-b097-0aed04733541.png)
+![Capa do Livro](./img/capa.png)
 
 Este repositório foi criado com base nos estudos do livro **"Lógica de Programação e Algoritmos com JavaScript"** (Edécio Fernando Iepsen - 2ª edição revisada e ampliada).  
 
