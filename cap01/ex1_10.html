@@ -2,8 +2,8 @@
 <script>
     //ELABORAR UM PROGRAMA PARA UMA PIZZARIA, O QUAL LEIA O VALOR TOTAL DE UMA CONTA E QUANTOS CLIENTES VÃO PAGA-LA. 
     // CALCULE E INFORME O VALOR A SER PAGO POR CLIENTE
-    const valorConta = prompt("Valor da conta: ")
-    const numCliente = prompt("Quantos clientes irá pagar a conta? ")
+    const valorConta = Number(prompt("Valor da conta: "))
+    const numCliente = Number(prompt("Quantos clientes irá pagar a conta? "))
     const valorPorCliente = valorConta / numCliente
     alert(`Valor da conta R$ ${valorConta} para ${numCliente}. Valor final divido: R$ ${valorPorCliente}`)
 </script>

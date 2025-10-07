@@ -2,7 +2,7 @@
 <script>
     //ELABORAR UM PROGRAMA PARA UMA LOJA, O QUAL LEIA O PRECO DE UM PRODUTO E INFORME AS OPÇÕES DE PAGAMENTO DA LOJA. 
     //CALCULE O INFORME O VALOR PARA PAGAMENTO À VISTA COM 10% DE DESCONTO E O VALOR EM 3X
-    const preco = prompt("Digite o preço do produto: ")
+    const preco = Number(prompt("Digite o preço do produto: "))
     const parcelado = preco  / 3
     const avista = preco
     alert(`Valor do produto parcelado em 3x: ${parcelado}\nValor a vista: ${avista}` )
